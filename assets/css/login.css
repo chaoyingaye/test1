@@ -1,0 +1,191 @@
+body {
+    font: 12px/150% "Microsoft YaHei";
+    color: #606060;
+}
+#headerwarp{
+    width: 1000px;
+    margin: 0 auto;
+    height: 83px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #43a41b;
+    /*margin-bottom: 20px;*/
+}
+.logo{
+    width: 210px;
+    height: 80px;
+    float: left;
+    padding-left: 10px;
+}
+
+
+#logincont{
+    width: 1000px;
+    height: 530px;
+    margin:0 auto;
+    position: relative;
+    background: url("../img/20181114100321105.jpg") no-repeat center;
+}
+#logincont form{
+    /*position: absolute;*/
+    float: right;
+    z-index: 100;
+    margin-top: 50px;
+    margin-right: 34px;
+    width: 382px;
+    height: 462px;
+    background:gainsboro;
+}
+.mc_outside{
+    width: 380px;
+    border:1px solid #dcdddd;
+    background: #ebebeb;
+}
+.mc_inside{
+    width: 306px;
+    padding: 10px 33px;
+    border:1px solid #ffffff;
+   background: #f7f8f8;
+    margin: 3px auto;
+    height: 432px;
+}
+.title{
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #595757;
+    padding-bottom: 20px;
+}
+.mcicon_input_user,.mcicon_input_pw{
+    height: 52px;
+}
+.mcicon_input_user a{
+    display: block;
+    color:#aaaaaa;
+    font-size: 12px;
+    height: 22px;
+    line-height: 22px;
+    text-align: right;
+    margin-top: 2px;
+}
+.mcicon_input_user input,.mcicon_input_pw input{
+    width: 292px;
+    heigth:16px;
+    padding: 5px;
+    border:1px solid #ccc;
+    font-size: 14px;
+    line-height: 16px;
+}
+.btndiv{
+    height: 30px;
+    padding-top: 10px;
+    margin-bottom: 22px;
+}
+.btndiv input{
+    width: 209px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    float: left;
+    color: #ffffff;
+    border:none;
+    font-size: 16px;
+    background: url("https://passport.womai.com/resource/images/login/login.png") no-repeat 0px -5px;
+}
+.btndiv div a{
+    display: inline-block;
+    width: 79px;
+    height: 30px; line-height: 30px;
+    font-weight: bold;
+    float: right;
+    text-align: center;
+    color:#479202; font-size: 16px;
+    background: url("https://passport.womai.com/resource/images/login/login.png") no-repeat -89px -149px;
+}
+.mci_account{
+    padding-top: 15px;
+    background: url("https://passport.womai.com/resource/images/line_03.png")repeat-x 0 top;
+}
+.mci_account p{
+    height: 16px;
+    line-height: 16px;
+    color: #595757;
+    font-size: 16px;
+}
+.mci_account ul{
+    line-height: 20px;
+    float: left;
+}
+.mci_account ul li{
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    padding: 0px 16px 0px 22px;
+    margin: 16px 16px 0 0;
+    display: inline;
+    position: relative;
+    border-right:1px solid #dcdddd;
+}
+.mci_account ul li i{
+    width: 16px;
+    height: 20px;
+    display: block;
+    background: url("https://passport.womai.com/resource/images/login/login.png") no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mci_account ul li a {
+    color: #807e7e;
+}
+.mci_account ul .qq_li i{
+    background-position: -209px -75px;
+}
+.mci_account ul .renren_li i{
+    background-position: -209px -96px;
+}
+.mci_account ul .kaixin_li i{
+    background-position: -209px -117px;
+}
+.mci_account ul .alipay i{
+    background-position: -209px -138px;
+}
+.mci_account ul .sina i{
+    background-position: -209px -159px;
+}
+.mci_account ul .baidu i{
+    background-position: -209px -180px;
+}
+.mci_account ul .ccb i{
+    background-position: -209px -201px;
+}
+.mci_account ul .zhidemai i{
+    background-position: -209px -223px;
+}
+.mci_account ul .zhongyi i{
+    background-position: -209px -243px;
+}
+
+#footer{
+    border-top: 20px solid #efefef;
+    background: #efefef;
+    border-bottom: 28px solid #43a41b;
+}
+#footer ul{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+#footer ul li{
+    line-height: 26px;
+    line-height: 26px;
+}
+#footer ul li a{
+    padding-left: 20px;
+    color:#606060;
+    background: url("../img/bottomicon.png") no-repeat -114px 0px;
+}
+#footer ul li a:hover{
+    text-decoration: underline;
+}

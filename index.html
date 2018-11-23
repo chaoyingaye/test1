@@ -1,0 +1,2035 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/index.js" type="text/javascript" ></script>
+    <script src="assets/js/Carousel.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="top">
+    <a href="http://www.womai.com/sale/2018/zzfc1811/">
+        <img src="./assets/img/1542104216946.jpg" alt="">
+    </a>
+</div>
+
+<div id="nav-warp">
+    <div class="nav width">
+        <ul class="first">
+            <li><i></i>当前城市：&nbsp;&nbsp;&nbsp;&nbsp;</li>
+            <li id="city">&nbsp;&nbsp;北京 <em></em>
+                <div id="citys" style="display: none">
+                    <p>你当前所选的城市为：<c>北京</c></p>
+                    <div>
+                        <span>热门城市：</span>
+                        <ul>
+                            <li>北京</li>
+                            <li>上海</li>
+                            <li>广州</li>
+                            <li>武汉</li>
+                            <li>沈阳</li>
+                            <li>郑州</li>
+                            <li>南京</li>
+                            <li>成都</li>
+                            <li>福州</li>
+                            <li>天津</li>
+                            <li>深圳</li>
+                            <li>杭州</li>
+                            <li>苏州</li>
+                            <li>无锡</li>
+                            <li>青岛</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <script>
+                var html=document.getElementsByTagName("html")[0];
+                var city=document.getElementById("city");
+                var citys=document.getElementById("citys");
+                var citysbool=false;
+                city.addEventListener("click",cityShow);
+                function cityShow() {
+                    citysbool=!citysbool;
+                    if(citysbool)
+                    {citys.style.display="block";
+                        city.style.background="#fff";
+                    }
+                    else{citys.style.display="none";
+                        city.style.background="#f5f5f5";
+                    }
+                }
+            </script>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp;hi,欢迎来到我买网！</li>
+            <li><a href="http://localhost:63342/womai/assets/html/login.html?_ijt=v1ls6vpq05kj655oaq13r6763r">登录</a></li>
+            <li><a href="http://localhost:63342/womai/assets/html/sign.html?_ijt=7n46dq2n7mqahfh62jfgq8573l">注册</a></li>
+        </ul>
+        <ul class="last">
+            <li class="clearfix"><em></em><b>&nbsp;&nbsp; &nbsp; 我的账户</b>
+                <div class="client">
+                    <p>
+                        <span>您还没有登录！</span>
+                        <a href="http://localhost:63342/womai/assets/html/login.html?_ijt=v1ls6vpq05kj655oaq13r6763r">登录</a>
+                    </p>
+                    <ul>
+                        <li><a href="#">待付款订单</a></li>
+                        <li><a href="#">我的消息</a></li>
+                        <li><a href="#">待签收订单</a></li>
+                        <li><a href="#">我的订单</a></li>
+                        <li><a href="#">支付卡账户 &nbsp;</a></li>
+                        <li><a href="#"> 我的积分</a></li>
+                        <li><a href="#">优惠卷/团购卷</a></li>
+                        <li><a href="#">我的收藏</a></li>
+                        <li><a href="#">电子礼品卡</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><i></i>购物车0件 <span>|</span></li>
+            <li>&nbsp; 客户服务 &nbsp; <em></em>
+                <div class="yh">
+                    <ul>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">新手上路</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>企业购<span>|</span></li>
+            <li><a href="#"></a><a href="#"></a></li>
+
+        </ul>
+    </div>
+</div>
+
+<div id="header-warp">
+    <div class="header width">
+        <div class="logo">
+            <a href="#">
+                <img src="assets/img/1535680953978.png" alt="">
+            </a>
+        </div>
+        <div class="logo_adv">
+            <a href="#">
+                <img src="./assets/img/1541660322835.gif" alt="">
+            </a>
+        </div>
+        <div class="search-warp">
+            <form class="search-c" method="get" name="f1">
+                <div class="inputDiv">
+                    <i></i>
+                    <input type="text" value="爆款加时返场 35元神卷任意领" id="searchInput" name="searchInput"></div>
+                <div class="btn"><input type="submit" id="searchBtn"></div>
+            </form>
+            <div class="search-m"><a href="#">高级搜索</a></div>
+            <ul class="search-b">
+                <li><a href="#">大米</a></li>
+                <li><a href="#">苹果手机</a></li>
+                <li><a href="#">大闸蟹</a></li>
+                <li><a href="#">每日坚果</a></li>
+                <li><a href="#">牛奶</a></li>
+                <li><a href="#">鸡蛋</a></li>
+            </ul>
+        </div>
+        <div class="code">
+            <img src="./assets/img/1493100962866.jpg" alt="">
+        </div>
+    </div>
+</div>
+
+<div id="main-nav-warp">
+    <div class="main-nav width">
+        <div class="all-kinds">
+            <h2>全部商品分类</h2>
+            <ul class="cont">
+                <li>
+                    <em style="background-image:url('./assets/img/1519460866192.png') "></em><a href="#">肉禽水产</a><a href="#">水果蔬菜</a>
+                    <div class="licontlist">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#">精品水果&nbsp;&gt;</a>
+                                <ul>
+                                    <li><a href="#">樱桃</a></li>
+                                    <li><a href="#">奇异果</a></li>
+                                    <li><a href="#">橙子</a></li>
+                                    <li><a href="#">苹果</a></li>
+                                    <li><a href="#">热带水果</a></li>
+                                    <li><a href="#">葡萄提子</a></li>
+                                    <li><a href="#">瓜</a></li>
+                                    <li><a href="#">芒果</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">海鲜水产&nbsp;&gt;</a>
+                                <ul>
+                                    <li><a href="#">虾类</a></li>
+                                    <li><a href="#">鱼类</a></li>
+                                    <li><a href="#">贝类</a></li>
+                                    <li><a href="#">海参</a></li>
+                                    <li><a href="#">蟹类</a></li>
+                                    <li><a href="#">干货类</a></li>
+                                    <li><a href="#">海鲜礼盒</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">生肉禽蛋&nbsp;&gt;</a>
+                                <ul>
+                                    <li><a href="#">进口肉食</a></li>
+                                    <li><a href="#">羊肉</a></li>
+                                    <li><a href="#">猪肉</a></li>
+                                    <li><a href="#">牛肉</a></li>
+                                    <li><a href="#">禽肉</a></li>
+                                    <li><a href="#">蛋类</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">精品蔬菜&nbsp;&gt;</a>
+                                <ul>
+                                    <li><a href="#">有机蔬菜</a></li>
+                                    <li><a href="#">精品蔬菜</a></li>
+                                    <li><a href="#">加工蔬菜</a></li>
+                                    <li><a href="#">冷冻蔬菜</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">低温饮品&nbsp;&gt;</a>
+                                <ul>
+                                    <li><a href="#">鲜奶</a></li>
+                                    <li><a href="#">酸奶</a></li>
+                                    <li><a href="#">黄油乳酪</a></li>
+                                    <li><a href="#">低温果汁</a></li>
+                                    <li><a href="#">低温饮品</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">精选主食&nbsp;&gt;</a>
+                                <ul>
+                                    <li><a href="#">饺子馄饨</a></li>
+                                    <li><a href="#">包子馒头</a></li>
+                                    <li><a href="#">汤圆年糕</a></li>
+                                    <li><a href="#">西式主食</a></li>
+                                    <li><a href="#">西式糕点</a></li>
+                                    <li><a href="#">中式糕点</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">熟食/佐餐&nbsp;&gt;</a>
+                                <ul>
+                                    <li><a href="#">配菜</a></li>
+                                    <li><a href="#">调味品</a></li>
+                                    <li><a href="#">火锅丸类</a></li>
+                                    <li><a href="#">腌腊制品</a></li>
+                                    <li><a href="#">熟肉肠食</a></li>
+                                    <li><a href="#">即食菜品</a></li>
+                                    <li><a href="#">火腿</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">冰激凌&nbsp;&gt;</a>
+                                <ul>
+                                    <li><a href="#">冰激凌</a></li>
+                                    <li><a href="#">雪糕</a></li>
+                                    <li><a href="#">冰棍</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <em style="background-image:url('./assets/img/1519454064424.png') "></em><a href="#">进口生鲜</a><a href="#">进口水果</a>
+                    <div class="licontlist">
+                         <ul>
+                        <li>
+                            <a href="#">进口生鲜&nbsp;&gt;</a>
+                            <ul>
+                                <li><a href="#">进口海鲜</a></li>
+                                <li><a href="#">进口牛肉</a></li>
+                                <li><a href="#">进口猪肉</a></li>
+                                <li><a href="#">进口羊肉</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">进口水果&nbsp;&gt;</a>
+                            <ul>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">奇异果</a></li>
+                                <li><a href="#">橙子</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#">热带水果</a></li>
+                                <li><a href="#">葡萄提子</a></li>
+                                <li><a href="#">瓜</a></li>
+                                <li><a href="#">芒果</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                     </div>
+                </li>
+                <li>
+                    <em style="background-image:url('./assets/img/1519454070045.png') "></em><a href="#">进口食品</a><a href="#">进口直采</a>
+                    <div class="licontlist">
+                        <ul>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <em style="background-image:url('./assets/img/1519454078081.png') "></em><a href="#">酒</a><a href="#">饮料/冲调</a><a href="#">茶</a>
+                    <div class="licontlist">
+                         <ul>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <em style="background-image:url('http://pic2.womai.com/upload/backend/2018/02/24/14/1519454085254.png') "></em><a href="#">休闲零食</a><a href="#">地方特产</a>
+                    <div class="licontlist">
+                        <ul>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <em style="background-image:url('http://pic2.womai.com/upload/backend/2018/02/24/14/1519454094998.png') "></em><a href="#">营养健康</a><a href="#">奶制品</a>
+                    <div class="licontlist">
+                        <ul>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <em style="background-image:url('http://pic2.womai.com/upload/backend/2018/02/24/14/1519454101442.png') "></em><a href="#">粮油副食</a><a href="#">调味干货</a>
+                    <div class="licontlist">
+                         <ul>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <em style="background-image:url('http://pic3.womai.com/upload/backend/2018/02/24/14/1519454107158.png') "></em><a href="#">母婴食品</a><a href="#">母婴用品</a>
+                    <div class="licontlist">
+                         <ul>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <em style="background-image:url('http://pic1.womai.com/upload/backend/2018/02/24/14/1519454111926.png') "></em><a href="#">个护美妆</a><a href="#">家用清洁</a>
+                    <div class="licontlist">
+                         <ul>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <em style="background-image:url('http://pic2.womai.com/upload/backend/2018/02/24/14/1519454116904.png') "></em><a href="#">厨具家纺</a><a href="#">家电3C</a>
+                    <div class="licontlist">
+                         <ul>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">精品水果</a>
+                            <ul>
+                                <li><a href="#">车厘子</a></li>
+                                <li><a href="#">樱桃</a></li>
+                                <li><a href="#">苹果</a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </div>
+                </li>
+                <li>
+                    <em style="background-image:url('http://pic1.womai.com/upload/backend/2018/02/24/16/1519460922080.png') "></em><a href="#">礼卡礼卷</a>
+                    <div class="licontlist">
+                        <ul>
+                            <li>
+                                <a href="#">精品水果</a>
+                                <ul>
+                                    <li><a href="#">车厘子</a></li>
+                                    <li><a href="#">樱桃</a></li>
+                                    <li><a href="#">苹果</a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">精品水果</a>
+                                <ul>
+                                    <li><a href="#">车厘子</a></li>
+                                    <li><a href="#">樱桃</a></li>
+                                    <li><a href="#">苹果</a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">精品水果</a>
+                                <ul>
+                                    <li><a href="#">车厘子</a></li>
+                                    <li><a href="#">樱桃</a></li>
+                                    <li><a href="#">苹果</a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">精品水果</a>
+                                <ul>
+                                    <li><a href="#">车厘子</a></li>
+                                    <li><a href="#">樱桃</a></li>
+                                    <li><a href="#">苹果</a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">精品水果</a>
+                                <ul>
+                                    <li><a href="#">车厘子</a></li>
+                                    <li><a href="#">樱桃</a></li>
+                                    <li><a href="#">苹果</a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="nav-v">
+            <ul>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">每日鲜</a></li>
+                <li><a href="#">我买酒</a></li>
+                <li><a href="#">我买严选</a></li>
+                <li><a href="#">安心享</a></li>
+                <li><a href="#">包邮直送</a></li>
+                <li><a href="#">全球购</a></li>
+                <li><a href="#">三同专区</a></li>
+            </ul>
+        </div>
+        <div class="min-cart clearfix">
+            <div class="btn">
+                <span class="cart-icon">
+                    <i class="cart-msg"></i>
+                </span>
+                <a href="#">购物车</a>
+                <span class="cart-trigle"></span>
+                <div class="cart-cont clearfix">
+                    <div class="free">
+                        <span></span>
+                        <p>
+                            购物车中还没有商品，赶紧去选购吧！<br>
+                            <a href="#">去首页看看</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--banner-->
+
+<div id="banner" >
+    <div class="banner-con width" id="banner-con">
+        <!-- 轮播图有毛病 1105 -->
+        <div id="carouselWarp"></div>
+        <div class="server clearfix">
+            <ul class="clearfix">
+                <li num="0">服务公告</li>
+                <li num="1">卡劵专栏</li>
+                <li num="2">VIP通道</li>
+            </ul>
+            <div class="serverMsg1 clearfix">
+                <a href="#">. 银联云闪付×手机闪付99你帮忙v，像</a>
+                <a href="#">. 我买网积分清零通知</a>
+                <a href="#">. 光大银行11.11抢先购10古典风格的</a>
+            </div>
+            <div class="serverMsg2 clearfix">
+                <a href="#">. 钱库优惠卷使用小提示</a>
+                <a href="#">. 优惠卷使用说明</a>
+            </div>
+            <div class="serverMsg3 clearfix">
+                <a href="#">. 2016年4月VIP会员专享国内的空间观念</a>
+                <a href="#">. 2016年3月VIP会员专享国内的空间观念</a>
+                <a href="#">. 2016年2月VIP会员专享国内的空间观念</a>
+            </div>
+        </div>
+        <script>
+
+        </script>
+        <ul class="minnav clearfix">
+            <li><a href="#"><img src="http://pic1.womai.com/upload/backend/2018/10/31/18/1540982203384.jpg" alt=""></a></li>
+            <li><a href="#"><img src="http://pic2.womai.com/upload/backend/2018/10/31/18/1540983209957.jpg" alt=""></a></li>
+            <li><a href="#"><img src="http://pic3.womai.com/upload/backend/2018/10/31/18/1540983331914.jpg" alt=""></a></li>
+            <li><a href="#"><img src="http://pic1.womai.com/upload/backend/2018/10/31/17/1540977964748.jpg" alt=""></a></li>
+            <li><a href="#"><img src="http://pic3.womai.com/upload/backend/2018/10/31/17/1540978081516.jpg" alt=""></a></li>
+            <li><a href="#"><img src="http://pic2.womai.com/upload/backend/2018/10/31/17/1540978177971.jpg" alt=""></a></li>
+            <li><a href="#"><img src="http://pic3.womai.com/upload/backend/2018/10/31/18/1540980067269.jpg" alt=""></a></li>
+            <li><a href="#"><img src="http://pic2.womai.com/upload/backend/2018/10/31/18/1540981530170.jpg" alt=""></a></li>
+            <li><a href="#"><img src="http://pic1.womai.com/upload/backend/2018/10/31/18/1540981701624.png" alt=""></a></li>
+        </ul>
+        <div>
+            <a href="#">
+                <img src="./assets/img/1542102844052.jpg" alt=""></a>
+        </div>
+    </div>
+</div>
+
+<!--  图标图标 -->
+<div id="selfactive">
+    <div class="chj-zdy">
+        <div class="selfMainPart">
+            <div class="selfLeftAdPart">
+                <a href="#">
+                    <img src="http://pic.womai.com/pic/sale/2018/selfimages/1031/hb/rad_1114.png" alt="">
+                </a>
+            </div>
+            <div class="selfRightAdPart">
+                <div class="f5list">
+                    <a href="#">
+                        <img src="http://pic.womai.com/pic/sale/2018/selfimages/1031/hb/ad1_1108.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad2_1114.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad3_1114.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad4_1114.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad5.png" alt="">
+                    </a>
+                </div>
+                <div class="f5list">
+                    <a href="#">
+                        <img src="./assets/img/ad6_1114.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad7_1114.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad8_1114.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad9_1114.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad10-1109.png" alt="">
+                    </a>
+                </div>
+                <div class="f4list">
+                    <a href="#">
+                        <img src="./assets/img/ad11_1114.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad12.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad13_1114.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/ad14-1109.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 每日 -->
+<div id="today" class="today width">
+    <h2 >
+        <span>每日劲爆品</span>
+        <img src="./assets/img/1486951606620.jpg" alt="">
+    </h2>
+    <div class="today-cont">
+        <div class="todayLeft">
+            <img src="./assets/img/1541660703282.jpg" alt="">
+        </div>
+        <ul class="todayRight">
+            <li>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/img/610733_0_pic270_8383.jpg" alt="">
+                    </a>
+                </figure>
+                <figcaption>
+                    <p>山萃混合坚果(每日坚果)</p>
+                    <a href="#">25g*30|慢焙轻烤，全人工精挑</a>
+                    <h3>
+                        <mark>￥118</mark>
+                        <a href="#">去看看</a>
+                    </h3>
+                </figcaption>
+            </li>
+            <li>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/img/599178_1_pic270_6272.jpg" alt="">
+                    </a>
+                </figure>
+                <figcaption>
+                    <p>中粮凌鲜.大洋世家厄瓜多尔</p>
+                    <a href="#">2kg/盒|精选海鲜，鲜嫩肥美</a>
+                    <h3>
+                        <mark>￥129</mark>
+                        <a href="#">去看看</a>
+                    </h3>
+                </figcaption>
+            </li>
+            <li>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/img/633736_1_pic270_4031.jpg" alt="">
+                    </a>
+                </figure>
+                <figcaption>
+                    <p>福临门 压榨一级充氮保险葵</p>
+                    <a href="#">3.5L|采用充氮保鲜技术，口感清</a>
+                    <h3>
+                        <mark>￥34.9</mark>
+                        <a href="#">去看看</a>
+                    </h3>
+                </figcaption>
+            </li>
+            <li>
+                <figure>
+                    <a href="#">
+                        <img src="./assets/img/10735849_0_pic270_1011.jpg" alt="">
+                    </a>
+                </figure>
+                <figcaption>
+                    <p>【整箱优惠】喜力啤酒</p>
+                    <a href="#">330ML*24|酒业清澈，泡沫细腻</a>
+                    <h3>
+                        <mark>￥155</mark>
+                        <a href="#">去看看</a>
+                    </h3>
+                </figcaption>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- 我买特色 -->
+<div id="tese" class="today width">
+    <h2 >
+        <span>我买特色</span>
+        <img src="./assets/img/1486951561625.jpg" alt="">
+    </h2>
+    <div class="tese-cont">
+        <div class="teseLeft">
+            <a href="#">
+                <img src="./assets/img/1542163691455.jpg" alt="">
+            </a>
+        </div>
+        <div class="teseRight">
+            <ul class="f1ul">
+                <li><a href="#"><img src="./assets/img/1522409351614.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/img/1542103194746.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/img/1542186781542.jpg" alt=""></a></li>
+            </ul>
+            <ul class="f2ul">
+                <li><a href="#"><img src="./assets/img/1541989717466.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/img/1539167467132.jpg" alt=""></a></li>
+                <li><a href="#"><img src="./assets/img/1542162715586.jpg" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- 我买推荐 -->
+<div id="recommend" class="today width">
+    <h2 >
+        <span>我买推荐</span>
+        <img src="./assets/img/1486951585602.jpg" alt="">
+    </h2>
+    <ul class="recommend-cont">
+        <li class="firstLi"><a href="#"><img src="./assets/img/1542163786367.jpg" alt=""></a></li>
+        <li><a href="#"><img src="./assets/img/1542104729740.jpg" alt=""></a></li>
+        <li><a href="#"><img src="./assets/img/1541060370872.jpg" alt=""></a></li>
+        <li><a href="#"><img src="./assets/img/1542104729740.jpg" alt=""></a></li>
+        <li><a href="#"><img src="./assets/img/1542104729740.jpg" alt=""></a></li>
+        <li><a href="#"><img src="./assets/img/1542104729740.jpg" alt=""></a></li>
+        <li><a href="#"><img src="./assets/img/1542104729740.jpg" alt=""></a></li>
+        <li><a href="#"><img src="./assets/img/1542104729740.jpg" alt=""></a></li>
+    </ul>
+
+</div>
+
+<!--  -->
+<div id="show" class="width">
+    <ul>
+        <li><a href="#"><img src="./assets/img/1542003423190.jpg" alt=""></a></li>
+        <li><a href="#"><img src="./assets/img/1542105532098.jpg" alt=""></a></li>
+        <li><a href="#"><img src="./assets/img/1541044527458.jpg" alt=""></a></li>
+    </ul>
+</div>
+
+<!--1F  进口食品-->
+<div id="floor1" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 进口食品 </h2>
+        <em><i>1F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1522407201494.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="0">精选推荐</li>
+            <li num="1">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top second_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top three_top" ></ul>
+        </div>
+    </div>
+</div>
+
+<!--  2F 海鲜 -->
+<div id="floor2" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 生鲜日配 </h2>
+        <em><i>2F</i></em>
+        <ul>
+            <li style="background: url('http://pic1.womai.com/upload/backend/2016/04/13/18/1460544764291.png') no-repeat left center"><a href="#">虾蟹类</a></li>
+            <li style="background: url('http://pic2.womai.com/upload/backend/2016/04/13/18/1460544771783.png') no-repeat left center"><a href="#">鱼类</a></li>
+            <li style="background: url('http://pic2.womai.com/upload/backend/2016/04/13/18/1460544779490.png') no-repeat left center"><a href="#">进口肉类</a></li>
+            <li style="background: url('http://pic3.womai.com/upload/backend/2016/04/13/18/1460544787609.png') no-repeat left center"><a href="#">国产肉类</a></li>
+            <li style="background: url('http://pic1.womai.com/upload/backend/2016/04/13/18/1460544794606.png') no-repeat left center"><a href="#">低温奶品</a></li>
+            <li style="background: url('http://pic1.womai.com/upload/backend/2016/04/13/18/1460544801863.png') no-repeat left center"><a href="#">精选主食</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1522659782183.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="2">精选推荐</li>
+            <li num="3">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  fort_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top five_top" ></ul>
+        </div>
+    </div>
+</div>
+
+<!--  3  时令生鲜  绿 -->
+<div id="floor3" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 时令生鲜 </h2>
+        <em><i>3F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1522656248466.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="4">精选推荐</li>
+            <li num="5">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  six_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top seven_top" ></ul>
+        </div>
+    </div>
+</div>
+
+<!-- 4 奶制品 -->
+<div id="floor4" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 奶制品 </h2>
+        <em><i>4F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1540976279124.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="6">精选推荐</li>
+            <li num="7">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  eight_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top nine_top" ></ul>
+        </div>
+    </div>
+</div>
+
+<!--  5  休闲保健-->
+<div id="floor5" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 休闲保健 </h2>
+        <em><i>5F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1542094770428.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="8">精选推荐</li>
+            <li num="9">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  ten_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top eleven_top" ></ul>
+        </div>
+    </div>
+</div>
+
+<!-- 6  酒饮冲调茶-->
+<div id="floor6" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 酒饮冲调茶 </h2>
+        <em><i>6F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1542163117585.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="10">精选推荐</li>
+            <li num="11">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  twelve_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top  thirteen_top" ></ul>
+        </div>
+    </div>
+</div>
+
+<!--  7  粮油副食-->
+<div id="floor7" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 粮油副食 </h2>
+        <em><i>7F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1542104770341.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="12">精选推荐</li>
+            <li num="13">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  fourteen_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top  thirteen_top" ></ul>
+        </div>
+    </div>
+</div>
+<!--  8 母婴 粉 -->
+<div id="floor8" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 母婴玩具 </h2>
+        <em><i>8F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1542105282706.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="14">精选推荐</li>
+            <li num="15">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  sixteen_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top  fifteen_top" ></ul>
+        </div>
+    </div>
+</div>
+
+<!--  9  个护 紫 -->
+<div id="floor9" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 个护清洁 </h2>
+        <em><i>9F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1535618644778.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="16">精选推荐</li>
+            <li num="17">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  eighteen_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top  nineteen_top" ></ul>
+        </div>
+    </div>
+</div>
+
+<!--  10 家居 粉紫 -->
+<div id="floor10" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 家具家电 </h2>
+        <em><i>10F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1537422709961.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="18">精选推荐</li>
+            <li num="19">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  twenty_top" ></ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top  twenty_one_top" ></ul>
+        </div>
+    </div>
+</div>
+
+<!--  11  包邮 奶茶 -->
+<div id="floor11" class="floor width clearfix">
+    <div class="floor-left">
+        <h2> <i></i> 包邮直送 全球购 </h2>
+        <em><i>11F</i></em>
+        <ul>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口食品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">牛奶乳品</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">坚果果干</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饮料及水</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">饼干糕点</a></li>
+            <li style="background: url('./assets/img/1460544523666.png') no-repeat left center"><a href="#">进口餐厨</a></li>
+        </ul>
+        <a href="#">
+            <img src="./assets/img/1540897821743.jpg" alt="">
+        </a>
+    </div>
+    <div class="floor-right">
+        <ul>
+            <li num="20">精选推荐</li>
+            <li num="21">热卖推荐</li>
+        </ul>
+        <div class="showul2 showul0 clearfix">
+            <ul class="first1_top first2_top  twenty_two_top" >
+
+            </ul>
+        </div>
+        <div class="showul1 showul0 clearfix">
+            <ul  class="first1_top  twenty_three_top" ></ul>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="footNav" class="width">
+    <div class="footnav-cont clearfix">
+        <ul class="clearfix">
+            <li>
+                <h3><a href="#">生鲜蔬果</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483949849478.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">进口水果</a></li>
+                    <li><a href="#">国产水果</a></li>
+                    <li><a href="#">海鲜水产</a></li>
+                    <li><a href="#">生肉禽蛋</a></li>
+                    <li><a href="#">蔬菜</a></li>
+                    <li><a href="#">低温乳品/饮料</a></li>
+                    <li><a href="#">糕点</a></li>
+                    <li><a href="#">主食</a></li>
+                    <li><a href="#">熟食/佐餐</a></li>
+                    <li><a href="#">冰淇淋</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><a href="#">进口食品</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483949903265.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">进口海外直采</a></li>
+                    <li><a href="#">进口牛奶/奶粉</a></li>
+                    <li><a href="#">进口饮料/水</a></li>
+                    <li><a href="#">进口咖啡茶叶</a></li>
+                    <li><a href="#">进口冲饮果</a></li>
+                    <li><a href="#">进口零食/膨化</a></li>
+                    <li><a href="#">进口饼干/糕点</a></li>
+                    <li><a href="#">进口糖果/巧克力</a></li>
+                    <li><a href="#">进口果干/坚果</a></li>
+                    <li><a href="#">进口食用油</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><a href="#">酒饮冲调</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483949960407.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">白酒/养生酒</a></li>
+                    <li><a href="#">葡萄酒</a></li>
+                    <li><a href="#">啤酒</a></li>
+                    <li><a href="#">洋酒</a></li>
+                    <li><a href="#">进口海外直采酒</a></li>
+                    <li><a href="#">饮料</a></li>
+                    <li><a href="#">饮用水</a></li>
+                    <li><a href="#">咖啡/冲调</a></li>
+                    <li><a href="#">早餐谷物</a></li>
+                    <li><a href="#">茶</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><a href="#">休闲零食</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483950025091.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">坚果炒货</a></li>
+                    <li><a href="#">果脯蜜饯</a></li>
+                    <li><a href="#">休闲零食</a></li>
+                    <li><a href="#">饼干蛋糕</a></li>
+                    <li><a href="#">糖果巧克力</a></li>
+                    <li><a href="#">地方特产</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><a href="#">粮油副食</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483950056611.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">食用油</a></li>
+                    <li><a href="#">米面杂粮</a></li>
+                    <li><a href="#">南北干货</a></li>
+                    <li><a href="#">调味品</a></li>
+                    <li><a href="#">方便食品</a></li>
+                    <li><a href="#">粮油礼盒</a></li>
+                    <li><a href="#">有机食品</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><a href="#">母婴用品</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483950101187.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">孕婴奶粉</a></li>
+                    <li><a href="#">婴童辅食</a></li>
+                    <li><a href="#">婴童营养</a></li>
+                    <li><a href="#">喂养用品</a></li>
+                    <li><a href="#">尿裤湿巾</a></li>
+                    <li><a href="#">婴童洗护</a></li>
+                    <li><a href="#">婴童清洁</a></li>
+                    <li><a href="#">日常安全护理</a></li>
+                    <li><a href="#">玩具</a></li>
+                    <li><a href="#">文具</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><a href="#">个护百货</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483950147423.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">个人护理</a></li>
+                    <li><a href="#">美容美妆</a></li>
+                    <li><a href="#">生活日用</a></li>
+                    <li><a href="#">厨具及配饰</a></li>
+                    <li><a href="#">家纺</a></li>
+                    <li><a href="#">内衣配饰</a></li>
+                    <li><a href="#">生活日用/宠物</a></li>
+                    <li><a href="#">厨房电器</a></li>
+                    <li><a href="#">生活电器</a></li>
+                    <li><a href="#">个护健康</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><a href="#">我买自有</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483950190947.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">食用油</a></li>
+                    <li><a href="#">米面杂粮</a></li>
+                    <li><a href="#">南北干货</a></li>
+                    <li><a href="#">面点主食</a></li>
+                    <li><a href="#">燕麦片</a></li>
+                    <li><a href="#">牛奶/酸奶</a></li>
+                    <li><a href="#">休闲食品</a></li>
+                    <li><a href="#">蜂蜜/茶</a></li>
+                    <li><a href="#">海鲜水产</a></li>
+                    <li><a href="#">低温甜点</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><a href="#">产地直送</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483950224557.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">时令水果</a></li>
+                    <li><a href="#">海鲜水产</a></li>
+                    <li><a href="#">休闲零食</a></li>
+                    <li><a href="#">坚果炒货</a></li>
+                    <li><a href="#">粮油调味</a></li>
+                    <li><a href="#">南北干货</a></li>
+                    <li><a href="#">营养健康</a></li>
+                    <li><a href="#">药食同源</a></li>
+                    <li><a href="#">酒水饮料</a></li>
+                    <li><a href="#">茶叶饮品</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3><a href="#">跨境购</a></h3>
+                <div class="icon">
+                    <a href="#"><img src="./assets/img/1483950270940.png" alt=""></a>
+                </div>
+                <ul class="innerUl">
+                    <li><a href="#">奶粉</a></li>
+                    <li><a href="#">尿裤湿巾</a></li>
+                    <li><a href="#">营养辅食</a></li>
+                    <li><a href="#">关爱老人</a></li>
+                    <li><a href="#">孕婴营养</a></li>
+                    <li><a href="#">呵护女性</a></li>
+                    <li><a href="#">彩妆</a></li>
+                    <li><a href="#">面部护理</a></li>
+                    <li><a href="#">卫生护理</a></li>
+                    <li><a href="#">家居日用</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--  footnav  -->
+<div id="wm-toolbar">
+    <div class="toolbar-left"></div>
+    <div class="pop-up"></div>
+</div>
+
+
+<!-- footerMsg-->
+<div id="footerMsg-warp" >
+    <div class="footerMsg width">
+        <ul class="footerlist">
+            <li>
+                <h3><a href="#">新手上路</a></h3>
+                <ul>
+                    <li><a href="#">新用户演示</a></li>
+                    <li><a href="#">会员积分计划</a></li>
+                    <li><a href="#">会员等级规则</a></li>
+                    <li><a href="#">售后服务政策</a></li>
+                    <li><a href="#">我买网发票制度</a></li>
+                </ul>
+                <i></i>
+            </li>
+            <li>
+                <h3><a href="#">付款方式</a></h3>
+                <ul>
+                    <li><a href="#">支付方式</a></li>
+                    <li><a href="#">支付常见问题</a></li>
+                    <li><a href="#">激活礼品卡</a></li>
+                    <li><a href="#">我买卡</a></li>
+                    <li><a href="#">电子礼品卡说明及使用</a></li>
+                </ul>
+                <i></i>
+            </li>
+            <li>
+                <h3><a href="#">配送信息</a></h3>
+                <ul>
+                    <li><a href="#">配送运费信息</a></li>
+                    <li><a href="#">生鲜速配运费标准</a></li>
+                    <li><a href="#">订单处理时间</a></li>
+                    <li><a href="#">验货与拒收政策</a></li>
+                    <li><a href="#">用卷订单结算说明</a></li>
+                </ul>
+                <i></i>
+            </li>
+            <li>
+                <h3><a href="#">我买提示</a></h3>
+                <ul>
+                    <li><a href="#">找回密码</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">常见热点问题</a></li>
+                    <li><a href="#">关于跨境购</a></li>
+                </ul>
+                <i></i>
+            </li>
+        </ul>
+        <div class="app">
+            <h4>中粮我买网APP</h4>
+            <img src="./assets/img/1461033750780.jpg" alt="">
+        </div>
+        <div class="app">
+            <h4>中粮我买网微信</h4>
+            <img src="./assets/img/1460533777294.jpg" alt="">
+        </div>
+    </div>
+</div>
+<!--  copyright -->
+<div id="copyRight" class="width">
+    <div class="link">
+        <a href="#">关于我们 </a><span>|</span>
+        <a href="#">免责条款 </a><span>|</span>
+        <a href="#">中粮集团 </a><span>|</span>
+        <a href="#">友情链接 </a><span>|</span>
+        <a href="#">搜索热词 </a><span>|</span>
+        <a href="#">客服电话：400-005-5678</a>
+    </div>
+    <div class="copy">
+        <a href="#"><img src="./assets/img/1524653210041.png" alt=""></a>
+        <div class="text">
+            <div>Copyright©2009-2018  womai.com.hk All Rights Reserved 中粮海优（北京）有限公司版权所有</div>
+            <div>中粮海优（北京）有限公司 北京市朝阳区朝阳门南大街8号18F-09室</div>
+            <div >
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010102000458">
+                    <i></i>
+                    京公网安备 11010102000458号
+                </a>
+                &nbsp;&nbsp;京ICP备 13003995号&nbsp;&nbsp;
+            </div>
+            <div>营业执照（统一社会信用代码）91110000055590239L&nbsp;&nbsp;食品经营许可证：JY11105020028185</div>
+        </div>
+        <div class="lastimg">
+            <a href="#"></a>
+        </div>
+    </div>
+</div>
+<!--顶上浮动的-->
+<div id="head" style="display: none">
+    <div class="header width ">
+        <div class="logo">
+            <a href="#">
+                <img src="assets/img/1535680953978.png" alt="">
+            </a>
+        </div>
+        <div class="search-warp">
+            <form class="search-c" method="get" name="f1">
+                <div class="inputDiv">
+                    <i></i>
+                    <input type="text" value="爆款加时返场 35元神卷任意领" id="searchInput2" name="searchInput"></div>
+                <div class="btn"><input type="submit" id="searchBtn2"></div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+    var data0=[
+        {id:1000,alt:"饼干",icon:"http://pic2.womai.com/upload/601/602/54301/57276/57276_0_pic270_1177.jpg",desc:"Danisa皇冠丹麦曲奇饼干908g",price:"89"},
+        {id:1001,alt:"饼干",icon:"./assets/img/1541389743203.jpg"},
+        {id:1002,alt:"饼干",icon:"http://pic3.womai.com/upload/601/602/51600/564393/564393_1_pic270_5762.jpg",desc:"绅士牌Planters精选大罐混合果",price:"89"},
+        {id:1003,alt:"饼干",icon:"http://pic3.womai.com/upload/601/603/606/66102/496889/496894/625566/625566_1_pic270_5737.jpg",desc:"【中粮海外直采】Ocean Spray",price:"89"},
+        {id:1004,alt:"饼干",icon:"http://pic1.womai.com/upload/601/603/606/66102/66108/496885/649132/649132_1_pic270_4442.jpg",desc:"Perrier巴黎水含天然矿泉水",price:"89"},
+        {id:1006,alt:"饼干",icon:"http://pic1.womai.com/upload/601/603/606/6700/6702/10181557/10181557_1_pic270_6790.jpg",desc:"【中粮海外直采】柏思蜜",price:"89"},
+        {id:1007,alt:"饼干",icon:"http://pic3.womai.com/upload/601/603/606/66102/214300/10261990/10261990_1_pic270_5649.jpg",desc:"【中粮海外直采】SIN YOON",price:"89"},
+
+        {id:1008,alt:"饼干",icon:"http://pic1.womai.com/upload/601/603/606/66102/66104/570415/570415_1_pic270_4590.jpg",desc:"Danisa皇冠丹麦曲奇饼干908g",price:"89"},
+        {id:1009,alt:"饼干",icon:"http://pic3.womai.com/upload/601/603/606/66102/66104/588795/588795_0_pic270_9755.jpg",desc:"Danisa皇冠丹麦曲奇饼干908g",price:"89"},
+        {id:1010,alt:"饼干",icon:"http://pic2.womai.com/upload/601/603/606/66102/496890/496895/611240/611240_1_pic270_8688.jpg",desc:"Danisa皇冠丹麦曲奇饼干908g",price:"89"},
+        {id:1011,alt:"饼干",icon:"http://pic3.womai.com/upload/601/603/606/66102/66108/496884/619146/619146_1_pic270_2014.jpg",desc:"绅士牌Planters精选大罐混合果",price:"89"},
+        {id:1012,alt:"饼干",icon:"http://pic2.womai.com/upload/601/603/606/66102/214300/10532854/10532854_1_pic270_6194.jpg",desc:"【中粮海外直采】Ocean Spray",price:"89"},
+        {id:1013,alt:"饼干",icon:"http://pic3.womai.com/upload/601/604/439208/10765845/10765845_0_pic270_9197.jpg",desc:"Perrier巴黎水含天然矿泉水",price:"89"},
+        {id:1014,alt:"饼干",icon:"http://pic3.womai.com/upload/601/603/606/6060/6064/6082/588899/588899_1_pic270_8395.jpg",desc:"【中粮海外直采】柏思蜜",price:"89"},
+        {id:1015,alt:"饼干",icon:"http://pic2.womai.com/upload/601/603/606/6060/6064/6082/588900/588900_1_pic270_658.jpg",desc:"绅士牌Planters精选大罐混合果",price:"89"},
+
+        {id:1016,alt:"饼干",icon:"http://pic3.womai.com/upload/601/603/606/64306/280375/219300/219302/595096/595096_2_pic270_8155.jpg",desc:"Danisa皇冠丹麦曲奇饼干908g",price:"89"},
+        {id:1017,alt:"饼干",icon:"http://pic1.womai.com/upload/backend/2018/11/06/14/1541487135944.jpg"},
+        {id:1018,alt:"饼干",icon:"http://pic1.womai.com/upload/601/603/606/64306/280375/82817/219363/606484/606484_1_pic270_4740.jpg",desc:"绅士牌Planters精选大罐混合果",price:"89"},
+        {id:1019,alt:"饼干",icon:"http://pic3.womai.com/upload/601/603/606/64306/280375/82402/82505/627180/627180_1_pic270_1461.jpg",desc:"【中粮海外直采】Ocean Spray",price:"89"},
+        {id:1020,alt:"饼干",icon:"http://pic3.womai.com/upload/601/603/606/7500/7502/638999/638999_1_pic270_3474.jpg",desc:"Perrier巴黎水含天然矿泉水",price:"89"},
+        {id:1021,alt:"饼干",icon:"http://pic3.womai.com/upload/601/603/606/64306/280375/219300/219302/644726/644726_1_pic270_4929.jpg",desc:"【中粮海外直采】柏思蜜",price:"89"},
+        {id:1022,alt:"饼干",icon:"http://pic2.womai.com/upload/601/603/606/64306/280375/82402/82506/659244/659244_1_pic270_9400.jpg",desc:"【中粮海外直采】SIN YOON",price:"89"},
+
+        {id:1023,alt:"饼干",icon:"http://pic1.womai.com/upload/601/603/606/64306/280375/82402/82505/584317/584317_1_pic270_899.jpg",desc:"Danisa皇冠丹麦曲奇饼干908g",price:"89"},
+        {id:1024,alt:"饼干",icon:"http://pic2.womai.com/upload/601/603/606/64306/280375/219300/219301/599165/599165_1_pic270_9327.jpg",desc:"Danisa皇冠丹麦曲奇饼干908g",price:"89"},
+        {id:1025,alt:"饼干",icon:"http://pic1.womai.com/upload/601/603/606/64306/280375/82402/219343/613819/613819_1_pic270_21.jpg",desc:"Danisa皇冠丹麦曲奇饼干908g",price:"89"},
+        {id:1026,alt:"饼干",icon:"http://pic2.womai.com/upload/601/603/606/7500/7502/643740/643740_1_pic270_210.jpg",desc:"绅士牌Planters精选大罐混合果",price:"89"},
+        {id:1027,alt:"饼干",icon:"http://pic1.womai.com/upload/601/603/606/64306/280375/82402/219341/659492/659492_1_pic270_9681.jpg",desc:"【中粮海外直采】Ocean Spray",price:"89"},
+        {id:1028,alt:"饼干",icon:"http://pic2.womai.com/upload/601/604/439208/10760651/10760651_1_pic270_728.JPG",desc:"Perrier巴黎水含天然矿泉水",price:"89"},
+        {id:1029,alt:"饼干",icon:"http://pic3.womai.com/upload/601/602/66008/523926/523926_1_pic270_9468.jpg",desc:"【中粮海外直采】柏思蜜",price:"89"},
+        {id:1030,alt:"饼干",icon:"http://pic1.womai.com/upload/601/603/210641/210654/210656/550674/550674_0_pic270_190.jpg",desc:"绅士牌Planters精选大罐混合果",price:"89"}
+    ];
+    var data1=data0.slice(0,7);
+    var data2=data0.slice(7,15);
+    var data3=data0.slice(15,22);
+    var data4=data0.slice(22,30);
+
+    function animation() {
+        requestAnimationFrame(animation);
+        carousel.update();
+//        carousel2.update();
+    }
+    var carouselWarp=document.getElementById("carouselWarp");
+    var arr=["./assets/img/1542104531228.jpg",
+        "./assets/img/1542095613904.jpg",
+        "./assets/img/1542364300408.jpg",
+        "./assets/img/1542105199134.jpg",
+        "./assets/img/1542251550620.jpg",
+        "./assets/img/1542188674252.jpg",
+        "./assets/img/1542101679611.jpg",
+        "./assets/img/1542102107626.jpg"];
+    var carousel=new Carousel(carouselWarp,arr,["./assets/img/left.png","./assets/img/right.png"]);
+    carousel.width=800;
+
+    //   放上之后 其他小图片就不了
+    //    var mincarousel1=document.getElementById("mincarousel1");
+    //    var arr1=["./assets/img/1541389743203.jpg","./assets/img/1537153912186.jpg"];
+    //    var carousel2=new Carousel(mincarousel1,arr1,["imgs/left.png","imgs/right.png"]);
+    //    carousel2.width=483;
+
+
+    var fldivs,flul,flprvLi,flprvDiv,fllis;
+    var divs,ul,prvLi,prvDiv,lis;
+    init();
+    function init(){
+        animation();
+        console.log($(".twenty_one_top"));
+        document.addEventListener("scroll",scrollHandler);
+        leftright();
+        bannerrightani();
+        showItem1(data1);//three 有大图的
+        showItem2(data2);//second 小图的
+        showItem3(data3);//全小图的
+        showItem4(data4);//有大图的
+        showItem5(data1);
+        showItem6(data2);
+        showItem7(data3);
+        showItem8(data4);
+        showItem9(data1);
+        showItem10(data2);
+        showItem11(data3);
+        showItem12(data4);
+        showItem13(data1);
+        showItem14(data2);
+        showItem15(data3);
+        showItem16(data4);
+        showItem17(data1);
+        showItem18(data2);
+        showItem19(data3);
+        showItem20(data4);
+        showItem21(data1);
+        showItem22(data2);
+    }
+
+    var searchInput=document.getElementById("searchInput");
+    var searchBtn=document.getElementById("searchBtn");
+    searchInput.addEventListener("focus",function () {
+        searchInput.value="";
+    });
+    <!-- 左右切换 -->
+    function leftright() {
+        fldivs=document.querySelectorAll(".showul0");
+        flul=document.querySelector(".floor-right>ul");
+        fllis=document.querySelectorAll(".floor-right>ul>li");
+        fldivs[0].style.display="block";
+//        fldivs[0].style.opacity=1;  //用none 才能得到正确的数据
+        flprvDiv=fldivs[0];
+        flul.firstElementChild.style.borderBottom="2px solid #a1c0f6";
+        flprvLi=flul.firstElementChild;
+        for(var i=0;i<fllis.length;i++){
+            fllis[i].addEventListener("mouseenter",liHandler);
+        }
+    }
+    function liHandler(e) {
+        flprvLi.style.borderBottom="none";
+        e.target.style.borderBottom="2px solid #a1c0f6";
+        flprvLi=e.target;
+        var num=Number(flprvLi.getAttribute("num"));
+        if(num%2===0)
+        {
+            fldivs[num].style.display="block";
+            fldivs[num+1].style.display="none";
+         }
+//            fldivs[num+1].style.opacity=0;
+        flprvDiv=fldivs[num];
+//        flprvDiv.style.opacity=1;
+        flprvDiv.style.display="block";
+    }
+    //顶上浮动
+    function scrollHandler(e) {
+        if(document.documentElement.scrollTop>500){
+            $("#head")[0].style.display="block";
+        }else{
+            $("#head")[0].style.display="none";
+        }
+    }
+    //banner right 切换
+    function bannerrightani() {
+        divs=document.querySelectorAll(".server>div");
+        ul=document.querySelector(".server>ul");
+        lis=document.querySelectorAll(".server>ul>li");
+        divs[0].style.opacity=1;
+        prvDiv=divs[0];
+        ul.firstElementChild.style.borderBottom="2px solid #2d8800";
+        ul.firstElementChild.style.backgroundColor="#fff" ;
+        prvLi=ul.firstElementChild;
+        for(var i=0;i<lis.length;i++){
+            lis[i].addEventListener("mouseenter",bannerrightaniliHandler);
+        }
+    }
+    function bannerrightaniliHandler(e) {
+        prvLi.style.borderBottom = "none";
+        prvLi.style.backgroundColor = "#f7f7f7";
+        e.target.style.backgroundColor = "#ffffff";
+        e.target.style.borderBottom="2px solid #2d8800";
+        prvLi = e.target;
+        var num = Number(prvLi.getAttribute("num"));
+        prvDiv.style.opacity = 0;
+        prvDiv = divs[num];
+        prvDiv.style.opacity = 1;
+    }
+
+
+
+
+
+    function showItem1(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".second_top").append(createItem1(arr[i]));
+        }
+    }
+    function showItem2(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".three_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem3(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".fort_top").append(createItem1(arr[i]))
+        }
+    }
+    function showItem4(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".five_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem5(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".six_top").append(createItem1(arr[i]));
+        }
+    }
+    function showItem6(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".seven_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem7(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".eight_top").append(createItem1(arr[i]))
+        }
+    }
+    function showItem8(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".nine_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem9(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".ten_top").append(createItem1(arr[i]));
+        }
+    }
+    function showItem10(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".eleven_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem11(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".twelve_top").append(createItem1(arr[i]))
+        }
+    }
+    function showItem12(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".thirteen_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem13(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".fourteen_top").append(createItem1(arr[i]))
+        }
+    }
+    function showItem14(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".fifteen_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem15(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".sixteen_top").append(createItem1(arr[i]))
+        }
+    }
+    function showItem16(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".seventeen_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem17(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".eighteen_top").append(createItem1(arr[i]));
+        }
+    }
+    function showItem18(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".nineteen_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem19(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".twenty_top").append(createItem1(arr[i]))
+        }
+    }
+    function showItem20(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".twenty_one_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem21(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".twenty_two_top").append(createItem2(arr[i]))
+        }
+    }
+    function showItem22(arr) {
+        for (var i=0;i<arr.length;i++){
+            $(".twenty_three_top").append(createItem2(arr[i]))
+        }
+    }
+
+
+    function createItem1(data){
+        var div=document.createElement("div");
+        div.className="shopItem";
+        var img=new Image();
+        img.src=data.icon;
+        div.appendChild(img);
+        var title=document.createElement("p");
+        title.textContent=data.desc;
+        div.appendChild(title);
+        var price=document.createElement("span");
+        price.textContent=data.price+"元";
+        div.appendChild(price);
+        var money=document.createElement("i");
+        div.appendChild(money);
+        money.textContent="¥";
+        div.icon=img;
+        div.title=title;
+        div.price=price;
+        div.data=data;
+        div.addEventListener("click",divClickHandler);
+        return div;
+    }
+    function createItem2(data){
+        var div=document.createElement("div");
+        div.className="shopItem";
+        var img=new Image();
+        img.src=data.icon;
+        div.appendChild(img);
+        var title=document.createElement("p");
+        title.textContent=data.desc;
+        div.appendChild(title);
+        var price=document.createElement("span");
+        price.textContent=data.price+"元";
+        div.appendChild(price);
+        var money=document.createElement("i");
+        div.appendChild(money);
+        money.textContent="¥";
+        div.icon=img;
+        div.title=title;
+        div.price=price;
+        div.data=data;
+        div.addEventListener("click",divClickHandler);
+        return div;
+    }
+    function divClickHandler(e) {
+        window.location.href="./assets/html/xiangqing.html?id="+this.data.id;
+//        console.log(this.data);
+    }
+
+
+</script>
+
+
+</body>
+</html>
+
+

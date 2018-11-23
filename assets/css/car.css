@@ -1,0 +1,293 @@
+html{
+    font-size: 12px;
+}
+.width{
+    width: 1000px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+    font-size: 0;
+    visibility: hidden;
+}
+#header{
+    width: 1000px;
+    height: 27px;
+    line-height: 27px;
+    margin: 0 auto;
+    overflow: hidden;
+    background:url("http://static.womai.com/zhongliang/templets/cart2014/images/20121219BX.png") repeat-x 0 -50px ;
+}
+#header ul{
+    float: right;
+}
+#header ul li{
+    float: left;
+    /*width: 150px;*/
+
+}
+#header ul li a{
+    padding: 5px 12px;
+    color:#606060;
+}
+
+#logo{
+    height: 95px;
+    margin-top: 10px;
+}
+#logo h1{
+    width: 195px;
+    height: 90px;
+    float: left;
+}
+#logo .step{
+    float: right;
+    margin-top: 26px;
+    width: 643px;
+    height: 38px;
+    background: url("http://static.womai.com/zhongliang/templets/cart2014/images/checkout/progress.jpg") no-repeat 0 0px;
+}
+
+#carTitle{
+    height: 36px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e6e6e6;
+}
+#carTitle>span{
+    margin-right: 30px;
+    float: left;
+    height: 36px;
+    font: 20px "Microsoft YaHei";
+    color: #606060;
+}
+.listwarp{
+    float: left;
+    color: #606060;
+    font-size: 12px;
+    margin-left: 10px; ;
+}
+.listwarp>span{
+    display: inline-block;
+    margin-top: 5px;
+    float: left;
+}
+.listwarp form{
+    float: left;
+    border:1px solid #9c9c9c;
+    position: relative;
+}
+.listwarp .text {
+    padding: 4px 15px 4px 6px;
+    position: relative;
+}
+.listwarp form .text i{
+    position: absolute;
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    right: 3px;
+    top: 10px;
+    margin-left: 4px;
+    background: url("http://static.womai.com/zhongliang/templets/cart2014/images/checkout/20120311_cart.png") no-repeat -78px -230px;
+}
+
+.listwarp .textcont{
+    width: 435px;
+    position: absolute;
+    padding: 18px 12px 5px 12px;
+    background: #ffffff;
+    border: 1px solid #cacaca;
+    top: 24px;
+    left: -1px;
+    color: #606060;
+    font-size: 12px;
+    z-index: 100;
+    /*不用z-index 的话 会穿过*/
+}
+.listwarp .textcont b{
+    position: absolute;
+    top: 2px;
+    right: 3px;
+    display: block;
+    font-size: 24px;
+    color: #969696;
+}
+.listwarp .textcont >ul{
+    height: 22px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #a8d08e;
+}
+.listwarp .textcont >ul>li{
+    float: left;
+    padding: 0 16px 0 8px;
+    line-height: 20px;
+    margin-right: 6px;
+    height: 21px;
+}
+.listwarp .textcont >ul>li.current{
+    color:#78b54f;
+    border: 1px solid #a8d08e;
+    border-bottom: 1px solid #fff;
+}
+.textcont .sheng,.textcont .shi{
+    background: #ffffff;
+    margin-left: 20px;
+}
+.textcont >div>span{
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+
+
+#dan{
+    margin-top: 7px;
+}
+#dan>div{
+    position: relative;
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 2px solid #e6e6e6;
+}
+#dan>div>div{
+    float: left;
+    padding:0 25px;
+    height: 34px;
+    font-size: 16px;
+    color:#7abd54;
+    border-bottom: 2px solid #7abd54;;
+}
+
+#sumShop{
+
+}
+#sumShop>ul{
+    height: 44px;
+    color:#3c3c3c;
+    font-size: 12px ;
+    padding: 20px 0px 6px 0px;
+
+}
+#sumShop>ul>li{
+    width: 50px;
+    float: left;
+    height: 19px;
+    text-align: center;
+    line-height: 19px;
+}
+#sumShop>ul>li:nth-of-type(1){
+    width: 493px;
+}
+#sumShop>ul>li:nth-of-type(2),
+#sumShop>ul>li:nth-of-type(4),
+#sumShop>ul>li:nth-of-type(5){
+    width: 90px;
+}
+#sumShop>ul>li:nth-of-type(3){
+     width: 130px;
+ }
+#sumShop>ul>li:nth-of-type(6){
+    width: 106px;
+}
+.shops{
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.shops .item{
+    height: 80px;
+    background: #fcfcfc;
+    border-top: 1px solid #ccc;
+    color:#3c3c3c;
+    font-size: 12px ;
+    padding-top: 20px;
+}
+.shops .item li{
+    float: left;
+}
+.shops .item .check{
+padding: 25px  20px;
+}
+/*.shops .item .icon a{*/
+    /*display: inline-block;*/
+/*}*/
+.shops .item .icon img{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border:1px solid #dcdddd;
+}
+.shops .item .msg{
+    width: 330px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+.shops .item .price{
+    padding-top:20px;
+    padding-left: 22px;
+}
+.shops .item .nums .stepNum{
+    width: 110px;
+    text-align: center;
+    color: #3c3c3c;
+    height: 30px;
+    line-height: 21px;
+    margin-left: 44px;
+    padding-top: 17px;
+}
+.shops .item .nums .stepNum div{
+    float: left;
+    width: 21px;
+    height: 21px;
+    background: url("http://static.womai.com/zhongliang/templets/cart2014/images/checkout/20120311_cart.png") no-repeat -139px -182px;
+    margin-left: 3px;
+    margin-top: 1px;
+    text-align: center;
+}
+.shops .item .nums .stepNum .input{
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    width: 34px;
+}
+.shops .item .weight{
+    padding: 21px 30px;
+}
+.shops .item .sum{
+    color: #c40000;
+    font-weight: 700;
+    padding: 20px 20px;
+}
+.shops .item .act{
+    padding-top: 20px;
+    padding-left: 45px;
+    width: 30px;
+}
+
+#footer{
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+#footer>div{
+    height: 30px;
+    line-height: 30px;
+}
+#footer>div a i{
+    float: left;
+    background: url("../img/bottomicon.png") no-repeat -114px 0px;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+}
+
+#footer span{
+    color: #cccccc;
+    margin-left: 5px;
+}
